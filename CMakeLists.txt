@@ -2,8 +2,9 @@ cmake_minimum_required(VERSION 3.15)
 project(C__)
 
 set(CMAKE_CXX_STANDARD 14)
-
+# 入门 Hello World
 add_executable(main main.cpp)
+# 数据类型
 add_executable(VariableAndConstant DataType/1_VariableAndConstant.cpp)
 add_executable(IntType DataType/2_IntType.cpp)
 add_executable(FloatDoubleType DataType/3_FloatDoubleType.cpp)
@@ -12,3 +13,18 @@ add_executable(TansType DataType/5_TransType.cpp)
 add_executable(StrType DataType/6_StrType.cpp)
 add_executable(BoolType DataType/7_BoolType.cpp)
 add_executable(Input DataType/8_Input.cpp)
+# 运算符
+add_executable(Arithmetic Operator/1_Arithmetic.cpp)
+add_executable(Assignment Operator/2_Assignment.cpp)
+add_executable(Compare Operator/3_Compare.cpp)
+add_executable(Logical Operator/4_Logical.cpp)
+# 程序流程结构
+add_executable(ProcessStructure ProcessStructure/1_if.cpp)
+add_executable(Binocular ProcessStructure/2_Binocular.cpp)
+add_executable(Switch ProcessStructure/3_switch.cpp)
+add_executable(while ProcessStructure/4_while.cpp)
+add_executable(dowhile ProcessStructure/5_dowhile.cpp)
+add_executable(for ProcessStructure/6_for.cpp)
+add_executable(break ProcessStructure/7_break.cpp)
+add_executable(continue ProcessStructure/8_continue.cpp)
+add_executable(goto ProcessStructure/9_goto.cpp)
