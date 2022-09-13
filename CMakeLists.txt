@@ -3,7 +3,7 @@ project(C__)
 
 set(CMAKE_CXX_STANDARD 14)
 # 入门 Hello World
-add_executable(main main.cpp)
+add_executable(main main.cpp )
 # 数据类型
 add_executable(VariableAndConstant DataType/1_VariableAndConstant.cpp)
 add_executable(IntType DataType/2_IntType.cpp)
@@ -35,3 +35,8 @@ add_executable(RevertArray OptionArray/3_RevertArray.cpp)
 add_executable(BubbleArray OptionArray/4_BubbleArray.cpp)
 add_executable(TwoDimensionalArray OptionArray/5_TwoDimensionalArray.cpp)
 add_executable(TwoArrayName OptionArray/6_TwoArrayName.cpp)
+# 函数
+add_executable(Define Method/1_define.cpp)
+add_executable(Type Method/2_type.cpp)
+add_executable(Statement Method/3_statement.cpp)
+add_executable(Document Method/4_document.cpp Method/swap.h)
