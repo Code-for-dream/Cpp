@@ -16,12 +16,12 @@ int main() {
     // 构建数组
     int arr[9] = {4, 2, 8, 0, 5, 7, 1, 3, 9};
 
-    for (int i = 1; i < 9; i++) {
-        for (int j = 0; j < i; j++) {
-            if (arr[i] < arr[j]) {
-                int tmp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = tmp;
+    for (int i = 9; i > 0; i--) {
+        for (int j = 0; j < i-1; j++) {
+            if (arr[j] > arr[j+1]) {
+                int tmp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = tmp;
             }
         }
     }
